@@ -420,6 +420,7 @@ figure { margin: 0; }
 }
 .partners-logos img { height: var(--logo-h); width: auto; max-width: 100%; object-fit: contain; }
 .partners-logos .partner-ys { height: calc(var(--logo-h) * .62); margin-left: 8px; }
+.partners-logos .partner-boost { height: calc(var(--logo-h) * .44); margin-left: 8px; }
 
 /* Footer */
 .site-footer { background: var(--wine); color: var(--rosa); padding: 56px 0 28px; }
@@ -516,7 +517,7 @@ figure { margin: 0; }
   }
   .community-media { margin-top: 0; }
   .stats { grid-template-columns: repeat(4, 1fr); gap: 32px; }
-  .partners-logos { --logo-h: 64px; }
+  .partners-logos { --logo-h: 58px; }
   .footer-inner { grid-template-columns: 1fr auto; align-items: start; }
 
   .nav-toggle { display: none; }
