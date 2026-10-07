@@ -8,7 +8,8 @@ It is a static site with no build step. Open `index.html` in a browser, or deplo
 index.html        page markup and content
 styles.css        brand tokens, layout, animations
 script.js         mobile nav, subtle scroll reveals
-assets/           Boost wordmark (red/white), partner strip, favicon
+assets/           Boost wordmark (red/white), partner logos, favicon
+assets/photos/    event photos (800px + 1600px, metadata stripped)
 ```
 
 ## Brand
