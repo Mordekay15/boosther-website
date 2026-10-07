@@ -266,8 +266,8 @@ figure { margin: 0; }
   aspect-ratio: 4 / 3;
 }
 
-.about-media { aspect-ratio: 4 / 5; margin-bottom: 36px; }
-.about-media img { object-position: 50% 40%; }
+.about-media { aspect-ratio: 3 / 2; margin-bottom: 28px; }
+.about-media img { object-position: 50% 45%; }
 
 .moments { background: var(--white); padding: 0 0 var(--section-y); }
 .gallery {
@@ -336,16 +336,16 @@ figure { margin: 0; }
 }
 
 /* About / Mission / Vision */
-.statement { margin-bottom: 48px; }
+.statement { margin-bottom: 36px; }
 .statement-lead {
   font-family: var(--font-display);
-  font-size: clamp(1.35rem, 1.1rem + 1.2vw, 2rem);
-  line-height: 1.38;
+  font-size: clamp(1.15rem, 1rem + .7vw, 1.55rem);
+  line-height: 1.45;
   margin: 0;
   max-width: 36em;
 }
-.mv { display: grid; gap: 32px; }
-.mv-item { border-top: 1px solid var(--line); padding-top: 22px; }
+.mv { display: grid; gap: 24px; }
+.mv-item { border-top: 1px solid var(--line); padding-top: 18px; }
 .mv-title {
   font-family: var(--font-label);
   font-size: .72rem;
@@ -355,7 +355,7 @@ figure { margin: 0; }
   color: var(--boost-red);
   margin-bottom: .9em;
 }
-.mv-item p { margin: 0; font-size: 1.08rem; }
+.mv-item p { margin: 0; font-size: 1rem; }
 
 /* What we do */
 .offer { list-style: none; margin: 0; padding: 0; }
@@ -385,7 +385,7 @@ figure { margin: 0; }
   padding: var(--section-y) 0;
 }
 .quote { margin: 0; }
-.quote blockquote { margin: 0; padding-left: 20px; border-left: 2px solid var(--boost-red); }
+.quote blockquote { margin: 0; }
 .quote p {
   font-family: var(--font-display);
   font-size: clamp(1.6rem, 1.1rem + 2.6vw, 3rem);
@@ -477,13 +477,13 @@ figure { margin: 0; }
 
   .about-top {
     display: grid;
-    grid-template-columns: .8fr 1.2fr;
-    gap: 64px;
+    grid-template-columns: .7fr 1.3fr;
+    gap: 56px;
     align-items: center;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
   }
   .about-top .statement { margin-bottom: 0; }
-  .about-media { margin-bottom: 0; }
+  .about-media { margin-bottom: 0; aspect-ratio: 1 / 1; }
 
   .gallery { grid-template-columns: repeat(4, 1fr); grid-auto-rows: 190px; gap: 12px; }
   .gallery-item { grid-row: span 2; aspect-ratio: auto; }
