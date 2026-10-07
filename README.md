@@ -28,4 +28,4 @@ Taken from the BoostHer brand guidelines:
 Fonts: **Playfair Display** for headings, **Source Serif 4** for body text (a web-friendly stand-in for Times New Roman), **Pinyon Script** for the "Her" script (a free stand-in for TS Kaewpet NP), and **Montserrat** for small caps labels.
 
 ## Before launch
-- Set the Instagram and LinkedIn URLs in `index.html` (search for `TODO`).
+- Set the LinkedIn URL in `index.html` (search for `TODO`).
